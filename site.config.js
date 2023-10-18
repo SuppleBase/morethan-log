@@ -1,11 +1,11 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "test",
+    name: "SuppleBase",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
+    role: "Engineering Manager | Cloud & Data analytics",
     bio: "I develop everything using node.",
-    email: "test.dev@gmail.com",
+    email: "supplebase@outlook.com",
     linkedin: "ts",
     github: "ts",
     instagram: "",
@@ -18,8 +18,8 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-logttest",
-    description: "welcome to morethan-logtest!",
+    title: "SuppleBase-Blog",
+    description: "Welcome to SuppleBase-Blog!",
   },
 
   // CONFIG configration (required)
