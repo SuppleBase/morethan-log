@@ -12,7 +12,7 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `SuppleBase`,
+      name: `SuppleBase- Projects`,
       href: "sds",
     },
   ],
