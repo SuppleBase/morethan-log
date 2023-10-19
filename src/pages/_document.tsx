@@ -6,7 +6,7 @@ class MyDocument extends Document {
     return (
       <Html lang={CONFIG.lang}>
         <Head>
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/favicon_avatar.ico" />
           <link
             rel="favicon_avatar"
             sizes="192x192"
