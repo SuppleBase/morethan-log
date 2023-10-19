@@ -18,7 +18,7 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "SuppleBase-Blog",
+    title: "SuppleBase",
     description: "Welcome to SuppleBase-Blog!",
   },
 
