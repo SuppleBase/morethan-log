@@ -10,8 +10,6 @@ const ProfileCard: React.FC<Props> = () => {
     <>
     <StyledTitle>💻 Profile</StyledTitle> 
     <StyledWrapper>
-      <div className="title">
-      </div>
       <div className="content">
         <div className="top">
           <Image src={CONFIG.profile.image} fill alt="" />
