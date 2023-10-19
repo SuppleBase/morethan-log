@@ -2,6 +2,9 @@ import { CONFIG } from "site.config"
 import Image from "next/image"
 import React from "react"
 import styled from "@emotion/styled"
+import {
+  AiOutlineMail,
+} from "react-icons/ai"
 
 type Props = {
   className?: string
@@ -26,11 +29,18 @@ const MobileProfileCard: React.FC<Props> = () => {
             <div className="btm">{CONFIG.profile.bio}</div>
           </div>
         </div>
-         <div className="wrapper">
-          <div className="name">{CONFIG.profile.email}</div>
-         </div>
-        </div>
-     </div>
+      </div>
+      {CONFIG.profile.email && (
+          <a
+            href={`mailto:${CONFIG.profile.email}`}
+            rel="noreferrer"
+            target="_blank"
+            css={{ overflow: "hidden" }}
+          >
+            <AiOutlineMail className="icon" />
+            <div className="name">email</div>
+          </a>
+        )}
     </StyledWrapper>
   )
 }
@@ -79,6 +89,10 @@ const StyledWrapper = styled.div`
         > .name {
           font-size: 0.875rem;
           line-height: 1.25rem;
+        }
+        > .icon {
+          font-size: 1.5rem;
+          line-height: 2rem;
         }
       }
     }
