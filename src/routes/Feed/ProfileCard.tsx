@@ -7,9 +7,9 @@ type Props = {}
 
 const ProfileCard: React.FC<Props> = () => {
   return (
+    <StyledTitle>💻 Profile</StyledTitle> 
     <StyledWrapper>
       <div className="title">
-        <StyledTitle>💻 Profile</StyledTitle> 
       </div>
       <div className="content">
         <div className="top">
