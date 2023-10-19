@@ -2,7 +2,7 @@ import React, { ReactNode } from "react"
 import { Noto_Color_Emoji } from "next/font/google"
 
 const notoColorEmoji = Noto_Color_Emoji({
-  weight: ["200"],
+  weight: ["400"],
   subsets: ["emoji"],
 })
 
