@@ -24,6 +24,7 @@ const MobileProfileCard: React.FC<Props> = () => {
             <div className="top">{CONFIG.profile.name}</div>
             <div className="mid">{CONFIG.profile.role}</div>
             <div className="btm">{CONFIG.profile.bio}</div>
+            <div className="name">{CONFIG.profile.email}</div>
           </div>
         </div>
       </div>
@@ -69,6 +70,10 @@ const StyledWrapper = styled.div`
           color: ${({ theme }) => theme.colors.gray11};
         }
         > .btm {
+          font-size: 0.875rem;
+          line-height: 1.25rem;
+        }
+        > .name {
           font-size: 0.875rem;
           line-height: 1.25rem;
         }
