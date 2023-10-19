@@ -38,7 +38,7 @@ const MobileProfileCard: React.FC<Props> = () => {
             css={{ overflow: "hidden" }}
           >
             <AiOutlineMail className="icon" />
-            <div className="name">email</div>
+            <div className="name">Email</div>
           </a>
         )}
     </StyledWrapper>
@@ -92,7 +92,7 @@ const StyledWrapper = styled.div`
         }
         > .icon {
           font-size: 1.5rem;
-          line-height: 2rem;
+          line-height: 1.25rem;
         }
       }
     }
